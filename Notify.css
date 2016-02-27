@@ -1,0 +1,67 @@
+
+.CloseMe{
+    position: absolute;;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    //display: block;
+    right: 0px;
+}
+
+.notify{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+
+}
+
+.notify.top-left {
+    left: 10px;
+    top: 10px;
+}
+.notify.top-right {
+    right: 10px;
+    top: 10px;
+}
+.notify.bottom-left {
+    left: 10px;
+    bottom: 10px;
+}
+.notify.bottom-right {
+    right: 10px;
+    bottom: 10px;
+}
+.notify.center {
+    top: 10px;
+    width: 50%;
+    left: 25%;
+}
+
+.notify.warning{
+    border: solid 2px rgb(255,255,0);
+}
+
+.notifyHeader.warning{
+    color: black;
+    border-bottom: solid thin;
+    background-color: rgba(255,255,0,0.2);
+}
+
+.notifyBody.warning{
+    background-color: rgb(255,255,0);
+    color: black;
+}
+
+.notify.error{
+    border: solid 2px rgb(255,0,0);
+}
+
+.notifyHeader.error{
+    color: black;
+    border-bottom: solid thin;
+    background-color: rgba(255,0,0,0.2);
+}
+
+.notifyBody.error{
+    background-color: rgb(255,0,0);
+    color: black;
+}
